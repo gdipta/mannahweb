@@ -366,7 +366,7 @@ const App = () => {
           {/* Property cards */}
           {[
             { img: 'https://images.unsplash.com/photo-1743439895141-20db90962997?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNhbm9weSUyMHZpbGxhfGVufDB8fDB8fHww', badge: 'Most Popular', type: 'Villa',      name: 'The Canopy Villa',     price: 'IDR 4,500,000', beds: 3, baths: 3, sqm: 320, features: ['Private infinity pool','Jungle canopy views','Outdoor living pavilion','Daily breakfast included'] },
-            { img: 'https://images.unsplash.com/photo-1728049006245-1bccfca6b504?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb3BlcnRpZXMlMjBiYWxpfGVufDB8fDB8fHww', badge: 'Best Value',   type: 'Villa',      name: 'The Garden Retreat',   price: 'IDR 2,800,000', beds: 2, baths: 2, sqm: 210, features: ['Private garden courtyard','Outdoor rain shower','Yoga deck','Artisan welcome kit'] },
+            { img: 'https://images.unsplash.com/photo-1688653802629-5360086bf632?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGNhbm9weSUyMHZpbGxhfGVufDB8fDB8fHww', badge: 'Best Value',   type: 'Villa',      name: 'The Garden Retreat',   price: 'IDR 2,800,000', beds: 2, baths: 2, sqm: 210, features: ['Private garden courtyard','Outdoor rain shower','Yoga deck','Artisan welcome kit'] },
             { img: 'https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80', badge: 'Creative Stay', type: 'Residence',  name: 'The Artist Loft',      price: 'IDR 1,900,000', beds: 1, baths: 1, sqm: 95,  features: ['Studio workspace','Art collection walls','Rooftop terrace','Community kitchen access'] },
             { img: 'https://images.unsplash.com/photo-1613545325278-f24b0cae1224?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80', badge: 'Luxury',       type: 'Villa',      name: 'The Riverside Estate', price: 'IDR 7,200,000', beds: 5, baths: 5, sqm: 680, features: ['Private river frontage','Chef & butler service','Home cinema','Helipad access'] },
           ].map(({ img, badge, type, name, price, beds, baths, sqm, features }) => (
@@ -441,11 +441,11 @@ const App = () => {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <div className="rounded-[2rem] overflow-hidden h-[400px] lg:h-[600px]">
-            <img src="https://images.unsplash.com/photo-1542314831-c6a4d14ce8a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1500&q=80" alt="Villa exterior pool" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
+            <img src="https://images.unsplash.com/photo-1689240640058-e32f229f3a55?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNhbm9weSUyMHZpbGxhfGVufDB8fDB8fHww" alt="Villa exterior pool" className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" />
           </div>
           <div className="grid grid-cols-2 gap-6 h-[400px] lg:h-[600px]">
             {[
-              'https://images.unsplash.com/photo-1595521634568-15cd9251871a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+              'https://images.unsplash.com/photo-1728049006245-1bccfca6b504?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb3BlcnRpZXMlMjBiYWxpfGVufDB8fDB8fHww',
               'https://images.unsplash.com/photo-1510798831971-661eb04b3739?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
               'https://images.unsplash.com/photo-1615874959474-d609969a20ed?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
               'https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
