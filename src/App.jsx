@@ -268,10 +268,6 @@ const App = () => {
               <button onClick={() => navigate('contact')} className={btnDark}>
                 Be our guide <ArrowRight size={18} />
               </button>
-              {/* "Get Ticket" → visit page */}
-              <button onClick={() => navigate('visit')} className="bg-transparent border border-black text-black px-8 py-3.5 rounded-full font-medium transition-all duration-300 hover:bg-black hover:text-white hover:scale-[1.04] active:scale-95">
-                Get Ticket
-              </button>
             </div>
           </div>
         </div>
@@ -584,8 +580,8 @@ const App = () => {
       {/* Contact Hero */}
       <section className="relative w-full h-[65vh] min-h-[500px]">
         <img 
-          src="https://images.unsplash.com/photo-1542640244-7e672d6cb466?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
-          alt="Bamboo forest path" 
+          src="https://images.unsplash.com/photo-1661596565979-141ae503a8eb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+          alt="Anggrek" 
           className="absolute inset-0 w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/50"></div>
@@ -608,7 +604,7 @@ const App = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
-            { Icon: Home,      bg: '#eaf4eb', color: '#5E9B4A', title: 'Property Rental',      text: 'Interested in renting a villa or space at Mannah Creative Village? We would love to host you.' },
+            { Icon: Home,      bg: '#eaf4eb', color: '#5E9B4A', title: 'Property Rental',      text: 'Interested in renting a villa or space at Mannah Creative Village? We love to host you.' },
             { Icon: Eye,       bg: '#fdf4e8', color: '#d99b48', title: 'Property Viewing',     text: 'Schedule a guided tour of our available properties and experience the village firsthand.' },
             { Icon: Handshake, bg: '#f4f0ec', color: '#7d6b5d', title: 'Business Partnership', text: 'Explore collaboration opportunities — from co-creation to investment and brand partnerships.' },
           ].map(({ Icon, bg, color, title, text }) => (
