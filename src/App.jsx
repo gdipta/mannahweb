@@ -340,7 +340,7 @@ const App = () => {
       {/* Stay Hero */}
       <section className="relative w-full h-[65vh] min-h-[500px]">
         <img 
-          src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
+          src="https://images.unsplash.com/photo-1654783864140-ec253ba7faec?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNhbm9weSUyMHZpbGxhfGVufDB8fDB8fHww" 
           alt="Luxury villa pool at dusk" 
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -365,8 +365,8 @@ const App = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
           {/* Property cards */}
           {[
-            { img: 'https://images.unsplash.com/photo-1613490908592-5d8be4019159?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80', badge: 'Most Popular', type: 'Villa',      name: 'The Canopy Villa',     price: 'IDR 4,500,000', beds: 3, baths: 3, sqm: 320, features: ['Private infinity pool','Jungle canopy views','Outdoor living pavilion','Daily breakfast included'] },
-            { img: 'https://images.unsplash.com/photo-1588880331179-bc9b93a8cb65?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80', badge: 'Best Value',   type: 'Villa',      name: 'The Garden Retreat',   price: 'IDR 2,800,000', beds: 2, baths: 2, sqm: 210, features: ['Private garden courtyard','Outdoor rain shower','Yoga deck','Artisan welcome kit'] },
+            { img: 'https://images.unsplash.com/photo-1743439895141-20db90962997?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNhbm9weSUyMHZpbGxhfGVufDB8fDB8fHww', badge: 'Most Popular', type: 'Villa',      name: 'The Canopy Villa',     price: 'IDR 4,500,000', beds: 3, baths: 3, sqm: 320, features: ['Private infinity pool','Jungle canopy views','Outdoor living pavilion','Daily breakfast included'] },
+            { img: 'https://images.unsplash.com/photo-1728049006245-1bccfca6b504?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHByb3BlcnRpZXMlMjBiYWxpfGVufDB8fDB8fHww', badge: 'Best Value',   type: 'Villa',      name: 'The Garden Retreat',   price: 'IDR 2,800,000', beds: 2, baths: 2, sqm: 210, features: ['Private garden courtyard','Outdoor rain shower','Yoga deck','Artisan welcome kit'] },
             { img: 'https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80', badge: 'Creative Stay', type: 'Residence',  name: 'The Artist Loft',      price: 'IDR 1,900,000', beds: 1, baths: 1, sqm: 95,  features: ['Studio workspace','Art collection walls','Rooftop terrace','Community kitchen access'] },
             { img: 'https://images.unsplash.com/photo-1613545325278-f24b0cae1224?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80', badge: 'Luxury',       type: 'Villa',      name: 'The Riverside Estate', price: 'IDR 7,200,000', beds: 5, baths: 5, sqm: 680, features: ['Private river frontage','Chef & butler service','Home cinema','Helipad access'] },
           ].map(({ img, badge, type, name, price, beds, baths, sqm, features }) => (
