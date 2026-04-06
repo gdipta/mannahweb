@@ -608,7 +608,7 @@ const App = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
-            { Icon: Home,      bg: '#eaf4eb', color: '#5E9B4A', title: 'Property Rental',      text: 'Interested in renting a villa or space at Mannah Creative Village? We'd love to host you.' },
+            { Icon: Home,      bg: '#eaf4eb', color: '#5E9B4A', title: 'Property Rental',      text: 'Interested in renting a villa or space at Mannah Creative Village? We would love to host you.' },
             { Icon: Eye,       bg: '#fdf4e8', color: '#d99b48', title: 'Property Viewing',     text: 'Schedule a guided tour of our available properties and experience the village firsthand.' },
             { Icon: Handshake, bg: '#f4f0ec', color: '#7d6b5d', title: 'Business Partnership', text: 'Explore collaboration opportunities — from co-creation to investment and brand partnerships.' },
           ].map(({ Icon, bg, color, title, text }) => (
