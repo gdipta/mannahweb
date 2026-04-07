@@ -852,7 +852,7 @@ const App = () => {
             <div className="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
               <p>Copyright Mannah Village</p>
               <div className="flex gap-6">
-                <p>© 2025 Mannah Inc.</p>
+                <p>© 2025 Mannah Village.</p>
                 <a href="#" className="hover:text-black transition-colors">Privacy Policy</a>
               </div>
             </div>
