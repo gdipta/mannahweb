@@ -766,14 +766,13 @@ const App = () => {
         {/* Navigation */}
         <nav className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-[#F9F8F4]/95 backdrop-blur-md shadow-sm py-4' : 'bg-[#F9F8F4] py-6'}`}>
           <div className="max-w-[1400px] mx-auto px-6 md:px-12 flex justify-between items-center">
-            <div className="flex items-center gap-2 cursor-pointer group" onClick={() => navigate('home')}>
-              <svg width="40" height="30" viewBox="0 0 100 60" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-black transition-transform duration-300 group-hover:scale-110">
-                <path d="M10 20 L50 40 L90 20 L90 30 L50 50 L10 30 Z" fill="currentColor"/>
-                <path d="M30 10 L50 20 L70 10 L70 20 L50 30 L30 20 Z" fill="currentColor"/>
-              </svg>
-              <span className="font-bold text-xl tracking-tight hidden sm:block">Mannah</span>
+            <div className="flex-shrink-0 cursor-pointer" onClick={() => navigate('home')}>
+              <img
+                src="/manah_black.png"
+                alt="Mannah Logo"
+                className="h-8 w-auto object-contain block invert"
+              />
             </div>
-
             <div className="hidden md:flex items-center gap-10">
               {navLinks.map((link) => (
                 <button 
@@ -821,11 +820,12 @@ const App = () => {
         <footer className="bg-[#F9F8F4] pt-24 pb-8 border-t border-gray-200">
           <div className="max-w-[1400px] mx-auto px-6 md:px-12">
             <div className="mb-16">
-              <div className="flex items-center gap-2 mb-8 cursor-pointer group" onClick={() => navigate('home')}>
-                <svg width="40" height="30" viewBox="0 0 100 60" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-black transition-transform duration-300 group-hover:scale-110">
-                  <path d="M10 20 L50 40 L90 20 L90 30 L50 50 L10 30 Z" fill="currentColor"/>
-                  <path d="M30 10 L50 20 L70 10 L70 20 L50 30 L30 20 Z" fill="currentColor"/>
-                </svg>
+              <div className="flex items-center gap-2 mb-8 cursor-pointer" onClick={() => navigate('home')}>
+                <img
+                  src="/manah_black.png"
+                  alt="Mannah Logo"
+                  className="h-8 w-auto object-contain block invert"
+                />
               </div>
               <div className="mb-8">
                 <p className="text-gray-600 leading-relaxed max-w-xs">
