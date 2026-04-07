@@ -723,9 +723,24 @@ const App = () => {
           </div>
         </div>
       </section>
+      {/* Map Section */}
+      <section className="max-w-[1400px] mx-auto px-6 md:px-12 pb-32">
+        <div className="w-full h-[400px] md:h-[500px] rounded-[2rem] overflow-hidden shadow-sm relative bg-gray-200">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126214.39414214228!2d115.1430048!3d-8.6704581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2409b0e5e80db%3A0xe27334e8ccb9374a!2sDenpasar%2C%20Bali%2C%20Indonesia!5e0!3m2!1sen!2sus!4v1714580000000!5m2!1sen!2sus" 
+            width="100%" 
+            height="100%" 
+            style={{ border: 0 }} 
+            allowFullScreen="" 
+            loading="lazy" 
+            referrerPolicy="no-referrer-when-downgrade"
+            title="Mannah Village Location"
+          ></iframe>
+        </div>
+      </section>
     </>
   );
-
+  
   /* ─── Page content wrapper animation ─── */
   const pageStyle = {
     opacity:   phase === 'exit' ? 0 : 1,
