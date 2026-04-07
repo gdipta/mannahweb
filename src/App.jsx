@@ -770,7 +770,7 @@ const App = () => {
               <img
                 src="/manah_black.png"
                 alt="Mannah Logo"
-                className="h-8 w-auto object-contain block invert"
+                className="h-8 w-auto object-contain block brightness-0"
               />
             </div>
             <div className="hidden md:flex items-center gap-10">
@@ -824,7 +824,7 @@ const App = () => {
                 <img
                   src="/manah_black.png"
                   alt="Mannah Logo"
-                  className="h-8 w-auto object-contain block invert"
+                  className="h-8 w-auto object-contain block brightness-0"
                 />
               </div>
               <div className="mb-8">
